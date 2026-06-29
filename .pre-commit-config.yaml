@@ -1,6 +1,6 @@
 repos:
   - repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
-    rev: v0.8.0
+    rev: v0.9.0
     hooks:
       - id: pre-commit-update
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -24,11 +24,11 @@ repos:
       - id: jupytext-enforce-pairing
       - id: jupytext-smart-sync
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.13.2
+    rev: v0.15.20
     hooks:
       - id: ruff-format
       - id: ruff-check
-  - repo: https://github.com/prettier/pre-commit
-    rev: v2.1.2
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
